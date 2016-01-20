@@ -18,7 +18,7 @@
             DNS Server2 IP Address <input><br/>
             DNS Server3 IP Address <input><br/>
             Default Gateway <?php info("DG"); ?> <input value"192.168.2.254" required readonly><br/>
-            Leas Time <?php info("LT"); ?> <input value="86400" required readonly>sec<br/>
+            Lease Time <?php info("LT"); ?> <input value="86400" required readonly>sec<br/>
 
             Toegewezen adressen
             <table class="table table-hover table-bordered">

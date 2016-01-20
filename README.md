@@ -8,3 +8,8 @@ Voor het pushen van veranderingen die jij hebt gemaakt
 git add .
 git commit -m 'beschrijving van de veranderingen'
 git push origin [jouw naam]
+
+
+backgroud wit grijs
+navigatie fixed
+feedback bij opslaan
