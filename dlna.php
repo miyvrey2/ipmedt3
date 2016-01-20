@@ -8,7 +8,7 @@
           <h3>DLNA DNS</h3>
           Aanzetten <input type="checkbox"></input>
           <form>
-            DMS Naam <?php info("DMS");?><input type="text"></input></br>
+            DMS Naam <?php info("dlna");?><input type="text"></input></br>
             Media locatie 1 <input type="text" ></input><button>Bladeren</button></br>
             Media locatie 2 <input type="text" ></input><button>Bladeren</button></br>
             Media locatie 3 <input type="text" ></input><button>Bladeren</button></br>

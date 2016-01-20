@@ -6,7 +6,7 @@
         <div class="col-md-12" id="content">
 
             <h5>Toegangs controle lijst</h5><br/>
-            Lijst type: <select>
+            Lijst type:<?php info("BWList"); ?> <select>
             	<option>Zwarte lijst</option>
             	<option>Witte lijst</option>
             </select><br/>
