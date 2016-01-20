@@ -7,14 +7,14 @@
 
             <div>
                 <h3>Account Mapping</h3>
-                <p>Registrar Server IP Adres <?php info(""); ?> </p>
+                <p>Registrar Server IP Adres <?php info("RegServerIP"); ?> </p>
                 <input type="email" id="inputEmail" class="form-control, col-md-1.5, " value="192.168.2.254" required readonly><br />
-                <p>Proxy Server IP Adres <?php info(""); ?> </p>
+                <p>Proxy Server IP Adres <?php info("ProxServerIP"); ?> </p>
                 <input type="email" id="inputEmail" class="form-control, col-md-1.5, " value="192.168.2.254" required readonly>
             </div>
             <div>
                 <h3>Internal SIP Server</h3>
-                <h5>Internal Extension Number <?php info(""); ?></h5>
+                <h5>Internal Extension Number <?php info("SIP"); ?></h5>
                 <select>
                   <option value="1">*101</option>
                   <option value="2">*102</option>
@@ -33,7 +33,7 @@
                         <option>Phone 2</option>
                     </select>
 
-                <h5>External SIP UA Mapping <?php info(""); ?></h5>
+                <h5>External SIP UA Mapping <?php info("SIPUA"); ?></h5>
                 Incoming Call <select>
                     <option>NONE</option>
                     <option selected>ID=1,AOR=SIP1</option>

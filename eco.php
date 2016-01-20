@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-          <h3>Eco modus</h3>
+          <h3>Eco modus <?php info("ECO");?></h3>
           <h5>USB</h5>
           <input type="checkbox"> Hele week Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
           <input type="checkbox"> Maandag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>

@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-          <h3>User management</h3>
+          <h3>User management <?php info("um");?></h3> 
           Gebruikersnaam <input type="text" value="KPN" required readonly> </input></br>
           Oud wachtwoord <input type="password"></input></br>
           Nieuw wachtwoord <input type="password"></input></br>

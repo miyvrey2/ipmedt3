@@ -4,13 +4,13 @@ function info($id){
     // Set up an array with all the help-items
     $helpArray = array(
         //wifi
-        '' => 'NOG NIETS INGEVOERD',
+        '' => 'NOG GEEN ID INGEVOERD',
         'AuthenticatieType' => '',
         'WPAEncriptyAlgoritme' => '',
         'Modus' => '',
         'KanaalBandbreedte' => '',
         'WMMQoS' => '',
-        'KPN-FON' => '',
+        'KPN-FON' => 'KPN fon is leuk',
         //Port Forwarden
         'LANHOSTIP' => '',
         'ApplicatieNaam'=>'',
@@ -39,14 +39,31 @@ function info($id){
         'MAC2' => '',
         //DMZ
         'DMZINPUT' => '',
-        'DMZHOST' => ''
+        'DMZHOST' => '',
         //Telefonie
+        'RegServerIP' => '',
+        'ProxServerIP' => '',
+        'SIP' => '',
+        'SIPUA' => '',
         //Firewall
+        'Firewall' => '',
+        'Intrusion' => '',
+        'Fraggle' => '',
+        'TCP' => '',
+        'PING' => '',
+        'LAND' => '',
+        'TEAR' => '',
         //Eco modus
+        'ECO' => '',
         //Web session timeout
+        'Timeout' => '',
         //User management
+        'um' => '',
         //DLNA DNS
+        'dlna' => '',
         //SNTP
+        'SNTP' => '',
+        'NPT' => '',
         //Opnieuw opstarten
         //Back-up
         //Fabrieksinstellingen

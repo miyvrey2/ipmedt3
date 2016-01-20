@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-        <h3>Firewall</h3>
+        <h3>Firewall <?php info("Firewall"); ?></h3>
           <form>
 
             <input type="radio" id="redtest" name="radiotest" value="red" checked>
@@ -24,7 +24,7 @@
             <option value="Laag">Laag</option>
           </select>
 
-        <h3>Intrusion Detection</h3>
+        <h3>Intrusion Detection <?php info("Intrusion"); ?></h3>
           <form>
 
             <input type="radio" id="redtest" name="radiotest" value="red" checked>
@@ -42,19 +42,19 @@
                 <th><h5>Intrusion Name</h5></td>
                 <th><h5>Count</h5></td>
               </tr><tr>
-                <td>Fraggle_broadcast_attack</td>
+                <td>Fraggle_broadcast_attack <?php info("Fraggle"); ?></td>
                 <td>0</td>
               </tr><tr>
-                <td>Tcp_syn_flood</td>
+                <td>Tcp_syn_flood <?php info("TCP"); ?></td>
                 <td>0</td>
               </tr><tr>
-                <td>Ping_of_death</td>
+                <td>Ping_of_death <?php info("PING"); ?></td>
                 <td>0</td>
               </tr><tr>
-                <td>Land_attack</td>
+                <td>Land_attack <?php info("LAND"); ?></td>
                 <td>0</td>
               </tr><tr>
-                <td>Tear_drop_attack</td>
+                <td>Tear_drop_attack <?php info("TEAR"); ?></td>
                 <td>0</td>
               </tr>
             </table>

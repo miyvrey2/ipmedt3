@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-          <h3>Web session timeout</h3>
+          <h3>Web session timeout <?php info("Timeout");?> <?php info("");?></h3>
           Timeout <input type="text"value="5"></input>min
 
         </div>
