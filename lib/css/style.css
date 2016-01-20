@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5,h6{
 
 label,
 section label{
+	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
@@ -137,10 +138,6 @@ u:hover b{
 #chart_div {
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-}
-
-#Intrusion {
-	margin-top: 10vh;
 }
 
 .middle{

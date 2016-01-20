@@ -5,8 +5,8 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-            <h5>WAN</h5>
-            NO NETWORK DETECTED
+            <h1>WAN</h1>
+            No network detected.
 
         </div>
     </div>

@@ -5,13 +5,17 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-            <h5>Toegangs controle lijst</h5><br/>
-            Lijst type:<?php info("BWList"); ?> <select>
+            <h1>Toegangs controle lijst</h1>
+
+			<label for="">Lijst type: <?php info("BWList"); ?></label>
+            <select>
             	<option>Zwarte lijst</option>
             	<option>Witte lijst</option>
-            </select><br/>
+            </select>
 
-            MAC Address <input><br/>
+			<label for="">MAC Address</label>
+			<input type="text" class="form-control">
+
            	<button>Voeg toe</button><br/><br/>
 
            	<table class="table table-hover table-bordered">

@@ -5,21 +5,56 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-            <h5>File Sharing</h5>
-            <h7>USB Storage</h7><br/>
-            	Geen USB opslag-apparaat gedetecteerd!<br/><br/>
-            <h7>FTP Server</h7><br/>
-            	Enable FTP Server <?php info("EnFTP"); ?> <input type="checkbox" name="enable" value="empty"><br/>
-            	FTP Security <?php info("FTPsec"); ?>
-            	<select>
-            		<option selected>Enabled</option>
-            		<option>Disabled</option> 
-            	</select><br/>
-            	FTP Gebruikersnaam <?php info("FTPun"); ?> <input type="text" value="username"><br/>
-            	FTP Wachtwoord <?php info("FTPpass"); ?> <input type="password" value="admin"><br/>
-            <h7>Samba Server</h7><br/>
-            Enable Samba Server <?php info("EnSAMBA"); ?> <input type="checkbox" name="enable" value="empty"><br/>
-            Host Naam <?php info("SAMBAnaam"); ?> <input type="text" value="smbshare">(2 - 5 characters)
+            <h1>File sharing</h1>
+
+            <div class="groupd-accordion">
+                <section class="selected">
+                    <a href=#usb id="usb">
+                        USB Storage
+                    </a>
+
+                    <div class="groupd-accordion-section">
+                        Geen USB opslag-apparaat gedetecteerd!
+                    </div>
+                </section>
+                <section>
+                    <a href=#ftp id="ftp">
+                        FTP Server
+                    </a>
+
+                    <div class="groupd-accordion-section">
+                        <label for="">Enable FTP Server <?php info("EnFTP"); ?></label>
+                        <input type="checkbox" name="enable" value="empty"><br/>
+
+                        <label for="">FTP Security <?php info("FTPsec"); ?></label>
+                        <select>
+                            <option selected>Enabled</option>
+                            <option>Disabled</option>
+                        </select><br/>
+
+                        <label for="">FTP Gebruikersnaam <?php info("FTPun"); ?> </label>
+                        <input type="text" value="username" class="form-control">
+
+                        <label for="">FTP Wachtwoord <?php info("FTPpass"); ?> </label>
+                        <input type="password" value="admin" class="form-control">
+                    </div>
+                </section>
+                <section>
+                    <a href=#samba id="samba">
+                        Samba Server
+                    </a>
+
+                    <div class="groupd-accordion-section">
+                        <label for="">Enable Samba Server <?php info("EnSAMBA"); ?></label>
+                        <br />
+                        <input type="checkbox" name="enable" value="empty">
+                        <br />
+
+                        <label for="">Host Naam <?php info("SAMBAnaam"); ?> <br /> <sup>(2 - 5 characters)</sup> </label>
+                        <input type="text" value="smbshare" class="form-control">
+
+                    </div>
+                </section>
 
         </div>
     </div>
