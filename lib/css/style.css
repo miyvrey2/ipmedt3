@@ -1,0 +1,113 @@
+#header{
+	margin-top: 5vh;
+	background: url("../img/KPN_logo.svg.png") no-repeat center center;
+	background-size: contain;
+	height: 10vh;
+}
+
+#formulier{
+	margin-top: 20vh;
+}
+
+.extrahoogte{
+	margin-top: 10vh !important;
+}
+
+input {
+	margin-bottom: 15px;
+}
+
+.logo{
+	width:10%;
+	display:block;
+}
+
+h3 {
+	color: #090;
+}
+
+h5 {
+	color: #090;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+h7 {
+	color: #090;
+	font-weight: bold;
+}
+
+.table h5{
+	color: white;
+}
+
+input{
+	text-align: center;
+}
+
+th {
+	background-color: #090;
+}
+
+.fa-trash:hover {
+	color: #090;
+	cursor: pointer;
+	font-weight: 700 !important;
+}
+
+#KopTekst{
+	text-align: center;
+}
+
+.dropdown-menu h5{
+	margin-left: 1em;
+}
+
+#loginallert{
+	margin-top: 5vh;	
+}
+
+@media screen and (min-width: 992px){
+	body {
+	  background: white; /* For browsers that do not support gradients */
+	  background: -webkit-linear-gradient(left, #090, white,white, white, white, white, white, #090); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(left, #090, white, white, white,white, white, white, #090); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(left, #090, white,white, white, white, white, white, #090); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(left, white, #090, white, white, white,white, white, #090); /* Standard syntax */
+	}
+}
+
+u{
+	position: relative;
+	font-style: normal;
+}
+
+u b{
+	font-style: normal;
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 100%;
+	z-index: 99;
+}
+
+u:hover b{
+	display: block;
+}
+
+#Intrusion tr td:last-of-type {
+	text-align: center;
+}
+
+#chart_div {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+#Intrusion {
+	margin-top: 10vh;
+}
+
+.middle{
+	margin-left: 10vh;
+}
