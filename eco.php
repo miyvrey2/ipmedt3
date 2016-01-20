@@ -4,28 +4,52 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12" id="content">
+          <h1>Eco Modus <?php info("ECO");?></h1>
 
-          <h3>Eco modus <?php info("ECO");?></h3>
-          <h5>USB</h5>
-          <input type="checkbox"> Hele week Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Maandag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Dinsdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Woensdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Donderdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Vrijdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Zaterdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Zondag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
+          <div class="groupd-accordion">
+            <section class="selected">
+              <a href=#usb id="usb">
+                USB
+              </a>
 
-          <h5>Wi-Fi</h5>
-          <input type="checkbox"> Hele week Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Maandag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Dinsdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Woensdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Donderdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Vrijdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Zaterdag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
-          <input type="checkbox"> Zondag Begin Tijd <input value="--:--" type="time"></input> Eind Tijd <input type="time" value="--:--"></input></br>
+              <div class="groupd-accordion-section">
 
+                <h2>USB</h2>
+
+                <input type="checkbox"><span class="label-eco">Hele week </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Maandag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Dinsdag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Woensdag </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Donderdag </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Vrijdag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Zaterdag </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Zondag </span><span class="label-eco2">Begin Tijd</span>   <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+
+              </div>
+
+            </section>
+            <section>
+              <a href=#server id="server">
+                Wi-Fi
+              </a>
+
+              <div class="groupd-accordion-section">
+
+                <h2>Wi-Fi</h2>
+
+                <input type="checkbox"><span class="label-eco">Hele week </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Maandag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Dinsdag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Woensdag </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Donderdag </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Vrijdag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Zaterdag </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+                <input type="checkbox"><span class="label-eco">Zondag </span><span class="label-eco2">Begin Tijd</span>   <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
+
+              </div>
+
+            </section>
+          </div>
         </div>
     </div>
 </div>

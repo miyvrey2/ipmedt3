@@ -5,9 +5,13 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-          <h3>Opnieuw opstarten</h3>
-          Klik deze button om het apparaat opnieuw op te starten.
-          <button>Opnieuw opstarten</button>
+            <h1>Opnieuw opstarten</h1>
+
+            <p>
+                Klik op deze knop om het apparaat opnieuw op te starten.
+            </p>
+
+            <button>Opnieuw opstarten</button>
 
         </div>
     </div>

@@ -5,8 +5,10 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-          <h3>Terugzetten naar fabrieksinstellingen</h3>
-          Klik op deze button om het apparaat terug te zetten naar de standaard fabrieksinstellingen. Het apparaat wordt automatisch opnieuw opgestart.
+          <h1>Terugzetten naar fabrieksinstellingen</h1>
+          <p>
+              Klik op deze button om het apparaat terug te zetten naar de standaard fabrieksinstellingen. Het apparaat wordt automatisch opnieuw opgestart.
+          </p>
           <button>Terugzetten naar fabrieksinstellingen</button>
 
         </div>

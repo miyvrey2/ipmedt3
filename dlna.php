@@ -5,15 +5,28 @@
     <div class="row">
         <div class="col-md-12" id="content">
 
-          <h3>DLNA DNS</h3>
-          Aanzetten <input type="checkbox"></input>
-          <form>
-            DMS Naam <?php info("dlna");?><input type="text"></input></br>
-            Media locatie 1 <input type="text" ></input><button>Bladeren</button></br>
-            Media locatie 2 <input type="text" ></input><button>Bladeren</button></br>
-            Media locatie 3 <input type="text" ></input><button>Bladeren</button></br>
-            Media locatie 4 <input type="text" ></input><button>Bladeren</button>
-          </form>
+            <h1>DLNA DNS</h1>
+            <label for="">Aanzetten</label>
+            <br />
+            <input type="checkbox">
+            <br />
+
+            <form>
+                <label for="">DMS Naam <?php info("dlna");?></label>
+                <input type="text" class="form-control">
+
+                <label for="">Media locatie 1</label>
+                <input type="text" class="form-control"><button>Bladeren</button>
+
+                <label for="">Media locatie 2</label>
+                <input type="text" class="form-control"><button>Bladeren</button>
+
+                <label for="">Media locatie 3</label>
+                <input type="text" class="form-control"><button>Bladeren</button>
+
+                <label for="">Media locatie 4</label>
+                <input type="text" class="form-control"><button>Bladeren</button>
+            </form>
 
         </div>
     </div>

@@ -25,6 +25,16 @@ body{
 	margin-top: 20vh;
 }
 
+.form-75{
+	width: 74% !important;
+	float: left;
+	margin-right: 1%;
+}
+
+.form-25{
+	width: 25% !important;
+}
+
 .extrahoogte{
 	margin-top: 10vh !important;
 }
@@ -32,6 +42,21 @@ body{
 h1,h2,h3,h4,h5,h6{
 	font-family: "kpn sans normal";
 }
+
+h1 .fa-question-circle,
+h2 .fa-question-circle,
+h3 .fa-question-circle,
+h4 .fa-question-circle,
+h5 .fa-question-circle,
+h6 .fa-question-circle{
+	font-size: 18px;
+	color: black;
+	top: -0.5em;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
 
 label,
 section label{
@@ -49,6 +74,18 @@ label sup{
 	font-weight: 400;
 }
 
+.label-eco{
+	display: inline-block;
+	width: 70px;
+	margin-left: 5px;
+}
+
+.label-eco2{
+	width: 100px;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
 input {
 	margin-bottom: 15px;
 }
@@ -61,6 +98,10 @@ select{
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
+}
+
+input[type="time"]{
+	margin-bottom: 10px;
 }
 
 .logo{
@@ -125,6 +166,10 @@ u b{
 	top: 0px;
 	left: 100%;
 	z-index: 99;
+	font-size: 14px;
+	font-weight: 400;
+	width: 300px;
+
 }
 
 u:hover b{
