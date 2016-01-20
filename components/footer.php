@@ -1,3 +1,6 @@
+<footer>
+    KPN Experiabox <?php echo date('Y'); ?> &copy; | <a href="<?php echo $url; ?>help/">help</a> | <a href="<?php echo $url; ?>help/">sitemap</a>
+</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

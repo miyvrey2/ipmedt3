@@ -6,8 +6,36 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1" id="content">
+<a href="#" class="groupd-accordiondd"><p>da</p></a>
+            <div class="groupd-accordion">
+                <section>
+                    <a href=#basis id="basis">
+                        Introduction
+                    </a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad
+                        minim.
+                    </p>
+                </section>
+                <section>
+                    <a href=#geavanceerd id="geavanceerd">
+                        General information
+                    </a>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                </section>
+                <section>
 
-                <h5>Wi-Fi</h5>
+                </section>
+            </div>
+
+                <h1>Wi-Fi</h1>
                 Aanzetten draadloos netwerk <input type="checkbox" name="enable" value="empty" checked><br />
                 <label for="inputEmail"> Netwerknaam(SSID) </label>
                 <input type="email" id="inputEmail" value="H368N4AA182" class="form-control col-md-1.5">(1 ~ 32 tekens)<br />
@@ -78,7 +106,7 @@
             Wi-Fi netwerk verbergen <input type="checkbox" name="enable" value="empty"><br />
             Maximaal aantal verbonden gebruikers <input type="number" min="1" max="32" class="form-control, col-md-1, "> (1 ~ 32)<br/>
 
-            <h7>Geavanceerde wachtwoord instellingen</h7><br />
+            <h7>KPN FON Hotspot</h7><br />
             Enable KPN-FON <?php info("KPN-FON"); ?> <input type="checkbox" checked>
         </div>
     </div>

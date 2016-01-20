@@ -1,7 +1,7 @@
 <?php
 	$host = "localhost";
 	$gebruiker = "root";
-	if (gethostname() == 'Smaug' || gethostname() == 'Air dust'){
+	if (gethostname() == 'Smaug' || gethostname() == 'AIR-DUST'){
 		$wachtwoord = "";
 	} else {
 		$wachtwoord = "root";
