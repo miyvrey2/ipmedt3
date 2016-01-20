@@ -24,7 +24,7 @@
             ['Label', 'Value'],
             ['Wi-Fi Usage', 10],
             ['Eco modus', 30],
-            ['Uptime', 100]
+            ['Uptime', 99]
           ]);
 
           var options = {
@@ -67,19 +67,19 @@
                     <th><h5>Naam Apparaat</h5></td>
                     <th><h5>Verbonden</h5
                   </tr><tr>
-                    <td>192.168.178.1</td>
+                    <td>192.168.2.1</td>
                     <td>AIR DUST</td>
                     <td><i class="fa fa-check fa-2x"></i></td>
                   </tr><tr>
-                    <td>192.168.178.2</td>
+                    <td>192.168.2.2</td>
                     <td>Cpt.Obvious-PC</td>
                     <td><i class="fa fa-check fa-2x"></i></td>
                   </tr><tr>
-                    <td>192.168.178.3</td>
+                    <td>192.168.2.3</td>
                     <td>BozeBuurman</td>
                     <td><i class="fa fa-check fa-2x"></i></td>
                   </tr><tr>
-                    <td>192.168.178.4</td>
+                    <td>192.168.2.4</td>
                     <td>Samantha-PC</td>
                     <td><i class="fa fa-check fa-2x"></i></td>
                 </table>

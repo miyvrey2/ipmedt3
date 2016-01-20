@@ -50,7 +50,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Router instellingen <i class="fa fa-cog"></i><span class="caret"></span></a>
 
                     <ul class="dropdown-menu">
-                        <li <?php is_current('eco')?>><a href="<?php echo $url; ?>eco/">Eco modus</a></li>
+                        <li <?php is_current('eco')?>><a href="<?php echo $url; ?>eco/">ECO modus</a></li>
                         <li role="separator" class="divider"></li>
                         <li <?php is_current('timeout')?>><a href="<?php echo $url; ?>timeout/">Web session timeout</a></li>
                         <li role="separator" class="divider"></li>
@@ -62,7 +62,7 @@
                         <li role="separator" class="divider"></li>
                         <li <?php is_current('reboot')?>><a href="<?php echo $url; ?>reboot/">Opnieuw opstarten</a></li>
                         <li role="separator" class="divider"></li>
-                        <li <?php is_current('backup')?>><a href="<?php echo $url; ?>backup/">Back-up</a></li>
+                        <li <?php is_current('backup')?>><a href="<?php echo $url; ?>backup/">Back-Up</a></li>
                         <li role="separator" class="divider"></li>
                         <li <?php is_current('factory')?>><a href="<?php echo $url; ?>factory/">Fabrieksinstellingen</a></li>
                     </ul>

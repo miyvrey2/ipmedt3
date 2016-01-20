@@ -39,7 +39,7 @@ function is_current($page)
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
     <link href="<?php echo $url; ?>lib/css/bootstrap.css" rel="stylesheet">
-
+    <div style="display:none">    <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0?autoplay=1" frameborder="0" allowfullscreen></iframe></div>
     <link href="<?php echo $url; ?>lib/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -50,3 +50,4 @@ function is_current($page)
     <![endif]-->
 </head>
 <body>
+
