@@ -1,9 +1,12 @@
 <?php
 	$host = "localhost";
 	$gebruiker = "root";
-	$wachtwoord = "root";
+	if (gethostname() == 'Smaug' || gethostname() == 'Air dust'){
+		$wachtwoord = "";
+	} else {
+		$wachtwoord = "root";
+	}
 	$database = "kpn";
-	
 	
 	$verbinding = mysql_connect("$host", "$gebruiker", "$wachtwoord")
 	or die("Verbinding met de server mislukt vanwege:" . mysql_error());
