@@ -67,16 +67,6 @@ th {
 	margin-top: 5vh;	
 }
 
-@media screen and (min-width: 992px){
-	body {
-	  background: white; /* For browsers that do not support gradients */
-	  background: -webkit-linear-gradient(left, #090, white,white, white, white, white, white, #090); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(left, #090, white, white, white,white, white, white, #090); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(left, #090, white,white, white, white, white, white, #090); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(left, white, #090, white, white, white,white, white, #090); /* Standard syntax */
-	}
-}
-
 u{
 	position: relative;
 	font-style: normal;
