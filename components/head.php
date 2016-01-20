@@ -3,6 +3,14 @@
 // Predefined variables for the whole website
 $url = 'http://'.$_SERVER['SERVER_NAME'] . dirname($_SERVER['PHP_SELF']).'/';
 
+function is_landing_page(){
+    if(dirname($_SERVER['PHP_SELF']).'/' ==$_SERVER["REQUEST_URI"]){
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function is_current($page)
 {
     $last_segment = trim($_SERVER["REQUEST_URI"],"/");
@@ -41,6 +49,9 @@ function is_current($page)
     <link href="<?php echo $url; ?>lib/css/bootstrap.css" rel="stylesheet">
 
     <link href="<?php echo $url; ?>lib/css/style.css" rel="stylesheet">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

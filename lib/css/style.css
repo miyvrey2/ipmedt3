@@ -119,32 +119,6 @@ footer{
 	text-align: center;
 }
 
-
-.groupd-accordiondd{
-	position: relative;
-	display: block;
-	background-color: red;
-	width: 100px;
-	height: 100px;
-}
-
-.groupd-accordiondd p{
-	opacity: 0;
-	background-color: orange;
-	width: 50px;
-	height: 50px;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
-}
-
-.groupd-accordiondd:active p,
-.groupd-accordiondd:target p{
-	opacity: 1;
-}
-
 /*harmonica*/
 .groupd-accordion {
 	padding: 0px;
@@ -155,29 +129,42 @@ footer{
 	box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 
+.groupd-accordion section {
+	overflow: hidden;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: 	all 1s ease;
+	-o-transition: 		all 1s ease;
+	-ms-transition: 	all 1s ease;
+	transition: 		all 1s ease;
+}
+
 .groupd-accordion section a {
 	position: relative;
+	padding-left: 20px;
 	font-size: 24px;
-	display:block;
-	background-color: #090;
-	color:#DDD;
-	text-decoration:none;
-	text-align:center;
-	border-bottom:1px solid #aaa;
-}
-
-.groupd-accordion section a + p {
-	margin: 0px;
-	padding: 10px;
-	overflow:hidden;
-	display: none;
-}
-
-.groupd-accordion section a:active{
-	border: 0px;
-	outline: 0px;
-}
-
-.groupd-accordion section a:target + p{
 	display: block;
+	background-color: #090;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 1px solid #070;
+}
+
+.groupd-accordion section .groupd-accordion-section{
+	display: block;
+	max-height: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: 	all 1s ease;
+	-o-transition: 		all 1s ease;
+	-ms-transition: 	all 1s ease;
+	transition: 		all 1s ease;
+}
+
+.groupd-accordion section.selected .groupd-accordion-section{
+	max-height: 500px;
+	padding: 10px;
 }

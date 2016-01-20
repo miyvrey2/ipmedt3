@@ -1,5 +1,5 @@
 <footer>
-    KPN Experiabox <?php echo date('Y'); ?> &copy; | <a href="<?php echo $url; ?>help/">help</a> | <a href="<?php echo $url; ?>help/">sitemap</a>
+    KPN Experiabox <?php echo date('Y'); ?> <?php if( is_landing_page() != true){echo '&copy; | <a href="'.$url.'help/">help</a> | <a href="'.$url.'help/">sitemap</a>';}?>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
