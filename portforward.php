@@ -10,7 +10,7 @@
           <div class="groupd-accordion">
             <section class="selected">
               <a href=#basis id="basis">
-                Port forwarding instellen
+                <i class="fa fa-angle-double-down"></i> Port forwarding instellen
               </a>
 
               <div class="groupd-accordion-section">
@@ -176,7 +176,7 @@
             </section>
             <section>
               <a href=#geavanceerd id="geavanceerd">
-                Geavanceerd
+                <i class="fa fa-angle-double-down"></i> Geavanceerd
               </a>
 
               <div class="groupd-accordion-section">

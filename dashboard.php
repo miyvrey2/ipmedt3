@@ -53,8 +53,8 @@
        <div id="chart_div" style="width: 400px; height: 120px;"></div>
       </div>
        <div class="row">
-          <h5>Netwerknaam</h5> <b>H368N4AA182</b>
-          <h5>Wachtwoord</h5> <b>F639Fhl917</b> 
+          <h5>Netwerknaam</h5> <b>H368N4AA182</b> <a href="<?php echo $url; ?>wifi/"><i class="fa fa-pencil"></i></a>
+          <h5>Wachtwoord</h5> <b>F639Fhl917</b>   <a href="<?php echo $url; ?>wifi/"><i class="fa fa-pencil"></i></a>
           <h5>Beveiligingstype</h5> <b>WPA/WPA2</b>
           <h5>Aantal verbonden gebruikers</h5> <b>4 </b>
       </div>

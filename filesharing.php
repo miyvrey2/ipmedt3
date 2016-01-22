@@ -10,7 +10,7 @@
             <div class="groupd-accordion">
                 <section class="selected">
                     <a href=#usb id="usb">
-                        USB Storage
+                       <i class="fa fa-angle-double-down"></i> USB Storage
                     </a>
 
                     <div class="groupd-accordion-section">
@@ -19,7 +19,7 @@
                 </section>
                 <section>
                     <a href=#ftp id="ftp">
-                        FTP Server
+                        <i class="fa fa-angle-double-down"></i> FTP Server
                     </a>
 
                     <div class="groupd-accordion-section">
@@ -41,7 +41,7 @@
                 </section>
                 <section>
                     <a href=#samba id="samba">
-                        Samba Server
+                       <i class="fa fa-angle-double-down"></i> Samba Server
                     </a>
 
                     <div class="groupd-accordion-section">

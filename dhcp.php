@@ -10,7 +10,7 @@
             <div class="groupd-accordion">
                 <section class="selected">
                     <a href=#server id="server">
-                        DHCP Server
+                        <i class="fa fa-angle-double-down"></i> DHCP Server
                     </a>
 
                     <div class="groupd-accordion-section">
@@ -70,7 +70,7 @@
                 </section>
                 <section>
                     <a href=#binding id="binding">
-                        DHCP Binding
+                       <i class="fa fa-angle-double-down"></i> DHCP Binding
                     </a>
 
                     <div class="groupd-accordion-section">

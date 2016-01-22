@@ -11,7 +11,7 @@
           <div class="groupd-accordion">
             <section class="selected">
               <a href=#server id="server">
-                Firewall
+                <i class="fa fa-angle-double-down"></i> Firewall
               </a>
 
               <div class="groupd-accordion-section">
@@ -40,7 +40,7 @@
 
             <section>
               <a href=#intrusion id="intrusion">
-                Intrusion Detection
+                <i class="fa fa-angle-double-down"></i> Intrusion Detection
               </a>
 
               <div class="groupd-accordion-section">

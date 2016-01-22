@@ -9,12 +9,12 @@
           <div class="groupd-accordion">
             <section class="selected">
               <a href=#usb id="usb">
-                USB
+                <i class="fa fa-angle-double-down"></i> Wi-Fi
               </a>
 
               <div class="groupd-accordion-section">
 
-                <h2>USB</h2>
+                <h2>Wi-Fi</h2>
 
                 <input type="checkbox"><span class="label-eco">Hele week </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
                 <input type="checkbox"><span class="label-eco">Maandag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
@@ -30,12 +30,12 @@
             </section>
             <section>
               <a href=#server id="server">
-                Wi-Fi
+               <i class="fa fa-angle-double-down"></i> USB
               </a>
 
               <div class="groupd-accordion-section">
 
-                <h2>Wi-Fi</h2>
+                <h2>USB</h2>
 
                 <input type="checkbox"><span class="label-eco">Hele week </span><span class="label-eco2">Begin Tijd</span> <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>
                 <input type="checkbox"><span class="label-eco">Maandag </span><span class="label-eco2">Begin Tijd</span>  <input  type="time"><span class="label-eco2">Eind Tijd</span><input type="time" ></br>

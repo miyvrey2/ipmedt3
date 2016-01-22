@@ -71,6 +71,9 @@
                 <li <?php is_current('help')?>><a href="<?php echo $url; ?>help/">Help <i class="fa fa-info-circle"></i></a></li>
             </ul>
             <p class="navbar-text navbar-right"><a href="<?php echo $url; ?>" class="navbar-link">Uitloggen</a></p>
+            <input style="margin-top:-5vh" type="text" class="col-md-5 col-md-offset-6" placeholder="Zoeken">
+            
+
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

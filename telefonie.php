@@ -10,7 +10,7 @@
             <div class="groupd-accordion">
                 <section class="selected">
                     <a href=#server id="server">
-                        Account Mapping
+                        <i class="fa fa-angle-double-down"></i> Account Mapping
                     </a>
 
                     <div class="groupd-accordion-section">
@@ -27,7 +27,7 @@
 
                 <section>
                     <a href=#server id="server">
-                        Internal SIP Server
+                        <i class="fa fa-angle-double-down"></i> Internal SIP Server
                     </a>
 
                     <div class="groupd-accordion-section">
