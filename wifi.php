@@ -31,7 +31,7 @@
                 </section>
                 <section>
                     <a href=#geavanceerd id="geavanceerd">
-                        <i class="fa fa-angle-double-down"></i>Geavanceerd 
+                        <i class="fa fa-angle-double-down"></i> Geavanceerd 
                     </a>
                     <div class="groupd-accordion-section">
                         <h2>Geavanceerde wachtwoord instellingen</h2>
@@ -106,13 +106,22 @@
 
                         <label for="maxUserWifi">Maximaal aantal verbonden gebruikers<br /><sup>(1 ~ 32)</sup></label>
                         <input id="maxUserWifi" type="number" min="1" max="32" class="form-control, col-md-1, ">
-
+                    </div>
+               </section>
+                <section>
+                    <a href=#geavanceerd id="geavanceerd">
+                        <i class="fa fa-angle-double-down"></i> KPN FON 
+                    </a>
+                    <div class="groupd-accordion">
                         <h2>KPN FON Hotspot</h2>
-
                         <label for="turnKPNFON">Schakel KPN-FON in <?php info("KPN-FON"); ?></label>
                         <br />
                         <input id="turnKPNFON" type="checkbox" checked>
                         <br />
+                    </div>
+                </section>
+
+
                     </div>
                 </section>
             </div>

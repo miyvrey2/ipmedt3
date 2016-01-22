@@ -71,7 +71,16 @@
                 <li <?php is_current('help')?>><a href="<?php echo $url; ?>help/">Help <i class="fa fa-info-circle"></i></a></li>
             </ul>
             <p class="navbar-text navbar-right"><a href="<?php echo $url; ?>" class="navbar-link">Uitloggen</a></p>
-            <input style="margin-top:-5vh" type="text" class="col-md-5 col-md-offset-6" placeholder="Zoeken">
+            
+
+              <div style="margin-top: 2.5vh" class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Zoeken naar...">
+      <span style="margin-top:5vh" class="input-group-btn">
+        <button class="btn btn-default" type="button">Zoeken!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 --
             
 
         </div><!-- /.navbar-collapse -->
